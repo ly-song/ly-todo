@@ -11,5 +11,5 @@ import Foundation
 class ToDo {
     var name = ""
     var done = false
-    var deleted = false
+    var deleted = true
 }
