@@ -1,21 +1,13 @@
-//
-//  ViewController.swift
-//  ly-todo
-//
-//  Created by Leeyoung Song on 2020/01/22.
-//  Copyright © 2020 Leeyoung Song. All rights reserved.
-//
+
 
 import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var textField: UITextField!
-    @IBOutlet weak var label: UILabel!
+ 
+    @IBOutlet weak var centerTitle: UILabel!
     
-    @IBAction func onTap(_ sender: Any) {
-        label.text = textField.text
-    }
+    var count = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,5 +15,13 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func buttonTapped(_ sender: Any) {
+        count = count + 1 // count += 1
+        if count == 10 {
+            view.backgroundColor = .red
+        }
+        centerTitle.text = String(count)
+
+    }
 }
 
