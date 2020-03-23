@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>data</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>TEST!</string>
+			<key>day</key>
+			<date>2020-03-07T05:14:48Z</date>
+			<key>done</key>
+			<false/>
+			<key>deleted</key>
+			<false/>
+		</dict>
+	</array>
+</dict>
+</plist>

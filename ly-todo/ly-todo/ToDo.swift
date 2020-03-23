@@ -11,5 +11,6 @@ import Foundation
 class ToDo {
     var name = ""
     var done = false
-    var deleted = true
+    var deleted = false
+    var day:Date = Date()
 }
